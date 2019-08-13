@@ -35,9 +35,16 @@ body {
 .logo {
     margin: 50px;
     text-shadow: 2px 2px 2px #595959;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
 }
 
 .header-title {
+    user-select: none;
     font-family: "Open Sans Condensed", serif;
     font-size: 75px;
     margin-bottom: 0;
@@ -65,8 +72,23 @@ body {
     background-color: #2b3137;
 }
 
+.topnav a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.topnav a:active {
+
+    text-decoration: none;
+    color: inherit;
+}
+
 a.active {
     background-color: #2b3137;
+}
+
+a {
+    text-decoration: none;
 }
 
 .footer {
