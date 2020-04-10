@@ -43,6 +43,22 @@ body {
     letter-spacing: 1px;
 }
 
+.caption-image {
+    width: 100%;
+    float: left;
+    padding: 50px 0;
+}
+
+.caption-image-left {
+    float: left;
+    width: 40%;
+}
+
+.caption-image-right {
+    float: right;
+    width: 60%;
+}
+
 .topnav {
     margin: 30px 0;
     text-transform: uppercase;
@@ -77,8 +93,12 @@ a {
 }
 
 .main {
-    width: 800px;
+    width: 1000px;
     margin: auto;
+}
+
+.splash-screen {
+    width: 100%;
 }
 
 .main-video {
@@ -151,3 +171,7 @@ a {
     color: white;
 }
 
+.fa-spotify {
+    background: #7cd669;
+    color: white;
+}
